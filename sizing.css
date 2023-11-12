@@ -1,0 +1,125 @@
+@media (max-width: 900px) {
+  .p-s {
+    padding: 2.5px;
+  }
+  .p-m {
+    padding: 5px;
+  }
+  .p-l {
+    padding: 7.5px;
+  }
+  .p-xl {
+    padding: 10px;
+  }
+
+  .m-s {
+    margin: 2.5px;
+  }
+  .m-m {
+    margin: 5px;
+  }
+  .m-l {
+    margin: 7.5px;
+  }
+  .m-xl {
+    margin: 10px;
+  }
+  nav ul li {
+    font-size: 14px;
+  }
+  .nav-logo {
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .list-right ul li i {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .landing-heading {
+    font-size: 28px;
+  }
+  .landing-page {
+    height: 80vh;
+  }
+
+  .heading2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .item-card {
+    border-radius: 3px;
+  }
+  .item-img {
+    height: 280px;
+    width: 185px;
+  }
+  .grid-3 {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+  }
+  #item-sec {
+    height: auto;
+  }
+  .item-desp {
+    display: grid;
+    gap: 5px;
+    background-color: var(--smoke-white);
+  }
+  .desp-head {
+    color: var(--Almostblack);
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .grid-3 .item-card {
+    margin: 10px 10px;
+  }
+  .shoe-img {
+    width: 260px;
+    height: 350px;
+  }
+  .para {
+    width: 30vw;
+    font-size: 14px;
+    margin: 20px 0px;
+  }
+  .shoe-img-container {
+    margin: auto;
+    margin-top: 35vh;
+    animation: shoe-animate 5s 5s infinite ease;
+    z-index: 22;
+    position: absolute;
+  }
+  .line hr {
+    width: 30vw;
+    margin: 30px 0px;
+    height: 1.2px;
+    background-color: var(--smoke-white);
+  }
+  #footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #email-form {
+    margin: 20px 0px;
+  }
+  #links {
+    margin: 10px 0px;
+  }
+  .img4grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50vw);
+  }
+  .grid4img {
+    width: 50vw;
+    height: 40vh;
+  }
+  #bw-section {
+    height: auto;
+  }
+}
